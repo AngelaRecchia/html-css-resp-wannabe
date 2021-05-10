@@ -94,19 +94,27 @@ img {
 
   .row {
     margin-top: 0;
-    padding: 10px 0;
+    padding: 5px 0 20px;
   }
 
   h1 {
-    font-size: 45px;
+    font-size: 50px;
   }
 
   h3 {
-    font-size: 25px;
+    font-size: 38px;
+    margin: 0;
   }
 
   div {
-    font-size: 20px;
+    font-size: 30px;
+  }
+
+  .row > div,
+  #why .row>.first,
+  #why .row>.second, 
+  #why .row>.third {
+    margin-top: 40px;
   }
 
 }
