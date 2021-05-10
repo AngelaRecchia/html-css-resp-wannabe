@@ -72,7 +72,7 @@ img {
   clear: both;
 }
 
-/* media query */
+/* media query  width < 420px*/
 @media screen and (max-width: 420px) {
 
   * {
@@ -130,4 +130,75 @@ img {
   hr {
     border: 1px solid #1f1f1f;
   }
+}
+
+/* media query  tablet: width tra 421px e 1200px*/
+@media screen and (min-width: 421px) and (max-width: 1199.5px){
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container.grey {
+    background-color: transparent;
+  }
+
+  #steps .row {
+    background-color: #F2F2CD;
+  }
+ 
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+  }
+
+  #lezioni .row>.left, 
+  #lezioni .row>.right {
+    width: 49%;
+  }
+
+  #steps .row>.left, 
+  #steps .row>.central {
+    width: 49%;
+    float: none;
+    display: inline-block;
+  }
+
+  #lezioni .row>.left, 
+  #lezioni .row>.right, 
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right,
+  #why .row>.first,
+  #why .row>.second, 
+  #why .row>.third {
+    margin: 40px auto 0;
+  }
+
+  .row {
+    margin-top: 0;
+    padding: 20px 0;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 28px;
+    margin: 0;
+  }
+
+  div {
+    font-size: 20px;
+  }
+
+
+  hr {
+    margin-top: 10px;
+    border: 1px solid #1f1f1f;
+  }
+  
 }
